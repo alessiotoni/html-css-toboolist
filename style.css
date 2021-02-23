@@ -4,8 +4,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.container-logo {
+header {
     padding: 10px 20px;
+
+}
+
+.container-logo {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 #logo {
@@ -13,9 +19,7 @@
 }
 
 #title {
-    display: inline-block;
     font-size: 60px;
-    vertical-align: top;
 }
 
 main {
