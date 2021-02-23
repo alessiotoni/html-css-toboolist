@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -37,6 +36,7 @@ main {
 }
 
 .button {  
+    height: 30px;
     border-radius: 5px;
     padding: 5px 10px;
 }
@@ -59,6 +59,7 @@ main {
 
 li {
     list-style-type: none;
+    vertical-align: middle;
 }
 
 .title-list {
@@ -74,9 +75,10 @@ li {
 .box {
     border-radius: 5px;
     display: inline-block;
-    padding: 3px 5px;
+    padding: 5px 5px;
     font-size: 10px;
     color: white;
+    vertical-align: middle;
 }
 
 dl:last-child {
@@ -85,6 +87,7 @@ dl:last-child {
 
 #editorial {
     background-color:rgb(96, 170, 229);
+    vertical-align: middle;
 }
 
 #q1-goals {
